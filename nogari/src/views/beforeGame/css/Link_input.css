@@ -1,0 +1,95 @@
+.linkmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 235px;
+    height: 144px;
+    margin-top: 30%;
+    background: #0C8247;
+    border-radius: 10.5474px;
+    margin-left: -500px;
+}
+.close{
+    position: absolute;
+    left: 90.6%;
+    right: 2.17%;
+    top: 3.42%;
+    bottom: 88.05%;
+    background: #0C8247;
+    color: #FCCE39;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: black;
+}
+
+.linkmain > input{
+    font-size: 20px;
+    margin-top: 44px;
+    width: 171px;
+    height: 34px;
+    color: #FCCE39;
+    background: #08552E;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3.51581px;
+}
+.linkmain > input:focus{
+    outline: #FCCE39;
+}
+.linkmain > input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.0632px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #0C8247;
+
+}
+.enter1{
+    position: relative;
+    margin-top: 28px;
+    margin-bottom: 23px;
+    width: 40px;
+    height: 15px;
+    color: black;
+    background: gray;
+    border-radius: 2.5px;
+    font-family: DungGeunMo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.5px;
+    line-height: 9px;
+}
+
+
+.enter2{
+    position: relative;
+    margin-top: 28px;
+    margin-bottom: 23px;
+    width: 40px;
+    height: 15px;
+    color: #0C8247;
+    background: #FCCE39;
+    border-radius: 2.5px;
+    font-family: DungGeunMo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.5px;
+    line-height: 9px;
+    cursor: pointer;
+}
+
+.enter2:hover{
+    background: black;
+    color: #FCCE39;
+}

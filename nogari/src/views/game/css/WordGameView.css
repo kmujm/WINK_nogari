@@ -1,0 +1,107 @@
+.main_wordgame{
+    margin: 0 auto;
+    position: relative;
+    width: 822px;
+    height: 740px;
+    /*overflow: hidden;*/
+}
+.boxwrapper{
+    margin: 0 auto;
+}
+.quizBox {
+    max-width: fit-content;
+    white-space: normal;
+    height: 146px;
+    background: #0C8247;
+    border-radius: 15px;
+    /*text-align: center;*/
+    margin: 25.28px auto;
+    font-size: 22.2893px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    align-items: center;
+    display: flex;
+    opacity: 0.9;
+    justify-content: space-around;
+}
+
+.quizBox > div{
+    font-family: DungGeunMo;
+    font-size: 80px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    width: 80px;
+    height: 80px;
+    color: #FCCE39;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    background: #08552E;
+}
+.input{
+    max-width: fit-content;
+    height: 35px;
+    background: #08552E;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    color: #FCCE39;
+    font-family: DungGeunMo;
+
+
+}
+.footer{
+    margin: 30px auto ;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 20.41px;
+    grid-row-gap: 11px;
+}
+
+.footer > .playerBox {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.footer > .playerBox > .playerInfo{
+    color: #FFFFFF;
+    width: 105.17px;
+    height: 159.8px;
+    background: #032213;
+    border-radius: 5px;
+
+}
+
+.footer > .playerBox > .inputword {
+    position: relative;
+    text-align: center;
+}
+
+.footer > .playerBox > .inputword > h3 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer > .playerBox > .inputword-correct {
+    transform: scale(1.5);
+    transition: transform 0.7s;
+    position: relative;
+    text-align: center;
+}
+
+.footer > .playerBox > .inputword-correct > h3 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

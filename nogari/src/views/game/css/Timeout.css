@@ -1,0 +1,28 @@
+.body{
+    margin:-420px auto;
+    position: sticky;
+    width: 822px;
+    height: 740px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: DungGeunMo;
+    font-size: 93.991px;
+    line-height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding-top :321px;
+}
+.body > div{
+    margin-top: 45.23px ;
+    font-family: DungGeunMo;
+    font-size: 22.2893px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}

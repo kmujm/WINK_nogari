@@ -1,0 +1,14 @@
+.user {
+  background-color: blue;
+  width: 20px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  z-index: 100;
+  left: 50px;
+  bottom: 50px;
+  border: 2px black dotted;
+  display: inline-block;
+  margin: 1px;
+}
+/*# sourceMappingURL=AlcoholMarblePlayer.css.map */

@@ -1,0 +1,547 @@
+#mainWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 822.22px;
+  height: 740px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#mainWrap .navi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.modal {
+  cursor: pointer;
+}
+
+#mainWrap .navi .modal {
+  border: none;
+  background-color: #E9DDC1;
+  margin: 10px;
+  color: #5F5F5F;
+  width: 81px;
+  height: 19px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+#mainWrap .navi .modal:nth-child(3) {
+  width: 121px;
+}
+
+#mainWrap .navi .modal:nth-child(3):hover{
+  background-color: #000;
+  color: white;
+}
+
+#mainWrap .navi .modal:nth-child(2):hover{
+  background-color: #000;
+  color: white;
+}
+
+#mainWrap .navi .modal:nth-child(1) {
+  background-color: #1B9659;
+  color: #fcce39;
+}
+
+#mainWrap .navi .modal:nth-child(1):hover{
+  background-color: black;
+  color: white;
+}
+
+
+#mainWrap .Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 695.38px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+#mainWrap .Main .char1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+#mainWrap .Main .gameMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+#mainWrap .Main .char2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+#mainWrap .Main .character {
+  width: 120px;
+  height: 123.8px;
+  text-align:center;
+  border-radius: 5%;
+  background-color: #000000;
+}
+
+#mainWrap .Main .character .character_img {
+  height:100%;
+}
+
+#mainWrap .Main .userName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: 10px;
+  color: #323232;
+}
+
+#mainWrap .Main .selectGameBtn {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #fcce39;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#mainWrap .Main .selectGameBtn:hover{
+    background-color: #05391F;
+    color: #fcce39;
+}
+
+#mainWrap .Main .startBtn {
+  width: 300px;
+  height: 65.62px;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 10px;
+  background-color: #fcce39;
+  color: white;
+  border: none;
+}
+
+#mainWrap .Main #unactive.startBtn {
+  background-color: rgba(53,53,53,0.5);
+}
+
+#mainWrap .Main #active.startBtn:hover {
+  cursor: pointer;
+  background-color: #05391F;
+  color: #fcce39;
+
+}
+
+
+#mainWrap .Main .selectedGame {
+  width: 450px;
+  height: 315.46px;
+  border-radius: 5%;
+  background-color: #0c8247;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  width: 822.22px;
+  text-align: right;
+}
+
+#mainWrap .Main .selectedGame .selecteMessage {
+  font-size: 36px;
+  color: #fcce39;
+}
+
+.gameContainer {
+  border: 5px solid #fcce39;
+  /*box-sizing: border-box;*/
+}
+
+.gameTitle {
+  position: absolute;
+  /* left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); */
+  top : 47%;
+  width: 441px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #FCCE39;
+  z-index: 1;
+  background-color: rgba(5,24,15,0.55);
+  /* opacity: 0.55; */
+  /* background; */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+/* 
+.gameTitle:before {
+  content: "";
+  position: absolute;
+  z-index: -1; 
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); 
+  width: 440px;
+  height: 65px; 
+  background-color: #05180F;
+  opacity: 0.55;
+} */
+
+.main-info-btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.main-info-btn:before {
+  content: "i";
+  left: 176px;
+  top: 12px;
+  position: absolute;
+  width: 30px;
+  color: #535353;
+  height: 30px;
+  font-size: 28px;
+  border-radius: 50%;
+  background-color: #FCCE39;
+  border: 2px solid #000000;
+}
+
+
+#menuModal #backBtn {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  left: 91%;
+  color: #fcce39;
+  cursor: pointer;
+}
+
+#menuModal #backBtn:hover {
+  color: black;
+}
+
+#menuModal .menuWraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#menuModal .menuWraper .menuTitle {
+  font-size: 50px;
+  color: #FCCE39;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#menuModal .menuWraper .menuRankContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft {
+  border-right: 5px black solid;
+  width: 360.1px;
+  height: 436.72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #08552E;
+  border-radius: 10px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .nameTitleContainer {
+  margin-top: 20px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .nameTitleContainer .LeftName {
+  font-size: 24px;
+  color: #FCCE39;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .nameTitleContainer .LeftTitle {
+  width: 127.7px;
+  height: 22.99px;
+  background-color: #042917;
+  color: #fcce39;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 22.99px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .LeftImage {
+  width: 194.1px;
+  height: 194.1px;
+  background-color: #042213;
+  border-radius: 10px;
+  color: #fcce39;
+  text-align: center;
+  font-size: 50px;
+  line-height: 194.1px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .LeftBadgeContainer {
+  color: #fcce39;
+  font-size: 14px;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .LeftBadgeContainer .LeftBadges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankLeft .LeftBadgeContainer .LeftBadges .LeftBadge {
+  border-radius: 50%;
+  /* width: 19.94px;
+  height: 19.94px; */
+    width: 35px;
+    height: 35px;
+  /* background-color: #FCCE39; */
+  background-repeat: no-repeat;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 19.94px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360.1px;
+  height: 436.72px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #05391F;
+  border-radius: 10px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .scrollBtnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360.1px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 20px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 10px;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .scrollBtnContainer .leftBtn {
+  color: #FCCE39;
+  cursor: pointer;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .scrollBtnContainer .leftBtn:hover {
+  color: #000000;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .scrollBtnContainer .rightBtn {
+  color: #FCCE39;
+  cursor: pointer;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .scrollBtnContainer .rightBtn:hover {
+  color: #000000;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper {
+  width: 278.38px;
+  height: 100.45px;
+  border-bottom: 1px solid rgba(252, 206, 57, 0.3);
+  color: #FCCE39;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .menuRangkRightContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .menuRangkRightContainer .rightRank {
+  font-size: 14px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .menuRangkRightContainer .rightTitle {
+  width: 127.7px;
+  height: 22.99px;
+  font-size: 12px;
+  background-color: #042213;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 22.99px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .menuRangkRightContainer .rightBadgeContainer {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .menuRangkRightContainer .rightBadgeContainer .rightBadges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .menuRangkRightContainer .rightBadgeContainer .rightBadges .rightBadge {
+  /* background-color: #000000; */
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  /* width: 12.77px;
+  height: 12.77px; */
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 3px;
+}
+
+#menuModal .menuWraper .menuRankContainer .menuRankRight .menuRankRightWrapper .rightImage {
+  width: 100px;
+  height: 100px;
+  background-color: #042213;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+}
+/*# sourceMappingURL=WatingRoom.css.map */

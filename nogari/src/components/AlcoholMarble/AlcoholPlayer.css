@@ -1,0 +1,9 @@
+
+
+.mainDiv {
+    visibility: hidden;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}

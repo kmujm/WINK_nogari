@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body * {
+  margin: 0;
+  font-family: 'DungGeunMo';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  width: auto;
+  height: 100vh;
+  height: 100vw;
+  background-position: center center;
+  background-image: url("./images/combineUpDown.jpg");
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}

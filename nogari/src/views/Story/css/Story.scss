@@ -1,0 +1,63 @@
+.StoryMainContainer {
+  width: 822.22px;
+  height: 740px;
+  position : absolute;
+  left : 50%;
+  transform: translateX(-50%);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .storyMsg {
+    color: #FCCE39;
+    font-size: 17px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 1px #0C8247;
+    
+    .storyMsgMid{
+      font-size: 24px;
+      text-align: center;
+      margin: 10px;
+    }
+
+    .storyMsgEnd{
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  .endBtnsContainer {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .storyBtn {
+    width: 100px;
+    height: 36.23px;
+    background-color: #FCCE39;
+    border-radius: 5px;
+    color: #0C8247;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 36.23px;
+    cursor: pointer;
+
+    &:hover{
+      background-color:black;
+      color: #FCCE39;
+      
+    }
+
+  }
+
+  
+
+}

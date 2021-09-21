@@ -1,0 +1,273 @@
+.UnPassModal {
+  width: 822.22px;
+  height: 740px;
+  background-image: url("../RottenPlatesGame/PlatesGameImage/TrashDummy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 95;
+}
+
+.UnPassModal .EndMessage {
+  position: absolute;
+  top: 32%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 822.22px;
+  height: 260px;
+  font-size: 100px;
+  color: white;
+  background-color: red;
+  z-index: 100;
+}
+
+.UnPassModal .UnPassTrash {
+  color: #fcce3a;
+  font-size: 120px;
+}
+
+.UnPassModal .ImgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.UnPassModal .ImgContainer .UnPassUserImg {
+  z-index: 96;
+  width: 350px;
+  height: 407.67px;
+  background-size: contain;
+  background-position: center;
+}
+
+.UnPassModal .ImgContainer .UnPassUserName {
+  color: #fcce3a;
+  font-size: 24px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.UnPassModal .btnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 822.22px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.UnPassModal .btnContainer .UnPassModalBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  width: 154.23px;
+  height: 43.83px;
+  background-color: #21AB66;
+  border-radius: 10px;
+  color: #EECC3C;
+}
+
+.UnPassModal .UnPassMessage {
+  color: #E0E0E0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.MainContainer {
+  width: 822.22px;
+  height: 740px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 80;
+}
+
+.MainContainer .timerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1B9659;
+}
+
+.MainContainer .timerContainer .timerImage {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../RottenPlatesGame/PlatesGameImage/timer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 25px;
+  width: 65px;
+  height: 55.77px;
+  margin-bottom: 10px;
+}
+
+.MainContainer .timerContainer .timerMessage {
+  font-size: 14px;
+}
+
+.MainContainer .nextBtn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.MainContainer .message {
+  font-size: 24px;
+  color: #1a9659;
+}
+
+.platesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 800px;
+  height: 233.86px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.platesContainer .cell {
+  cursor: pointer;
+  width: 106px;
+  height: 75px;
+  background-repeat: no-repeat;
+}
+
+.platesContainer .cell .cellItem {
+  position: absolute;
+  background-image: url("../RottenPlatesGame/PlatesGameImage/PlateDefault.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 106px;
+  height: 75px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.platesContainer .cell .Plate {
+  background-image: url("../RottenPlatesGame/PlatesGameImage/Plate.png");
+  width: 105px;
+  height: 53px;
+}
+
+.platesContainer .cell:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: scale 0.25s ease-in;
+  transition: scale 0.25s ease-in;
+}
+
+.UserContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 730px;
+  height: 170.57px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.UserContainer .userWrapper {
+  background-color: #022213;
+  border: 2px solid black;
+  border-radius: 10%;
+  width: 112.67px;
+  height: 170.57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.UserContainer .userWrapper .userImage {
+  width: 100px;
+  height: 116.45px;
+}
+
+.UserContainer .userWrapper .userName {
+  color: #fcce3a;
+}
+/*# sourceMappingURL=RottenPlatesGame.css.map */

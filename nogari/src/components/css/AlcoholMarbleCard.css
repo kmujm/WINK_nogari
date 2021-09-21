@@ -1,0 +1,22 @@
+.hidden {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+  visibility: hidden;
+  font-size: 30px;
+  margin: 1px;
+  border: 3px black solid;
+}
+
+.card {
+  background-color: red;
+  width: 150px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+  border: 3px black solid;
+  margin: 1px;
+}
+/*# sourceMappingURL=AlcoholMarbleCard.css.map */

@@ -1,0 +1,35 @@
+#LiarCategoryContainer {
+    width: 822.22px;
+    height: 740px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+#LiarCategoryHeader {
+    font-size: 27.27px;
+}
+
+#LiarCategoryChoice_before {
+    border: none;
+    border-radius: 3.41px;
+    width: 240.67px;
+    height: 63.62px;
+    margin-top: 62.69px;
+    font-size: 27.43px;
+    background-color: #DDDDDD;
+    color: #fff;
+}
+
+#LiarCategoryChoice_after {
+    border: none;
+    border-radius: 3.41px;
+    width: 240.67px;
+    height: 63.62px;
+    margin-top: 62.69px;
+    font-size: 27.43px;
+    background-color: #FCCE39;
+    color: #fff;
+}

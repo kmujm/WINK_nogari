@@ -1,0 +1,68 @@
+.FinishButton{
+    background: #0C8247;
+    color: #FCCE39;
+    width: 132.45px;
+    height: 39px;
+    border-radius: 4.52092px;
+    padding: 6.72343px;
+    font-family: DungGeunMo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0837px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-left: 103px;
+    border:0;
+}
+.FinishButton:hover{
+    background: #FCCE39;
+    color: #FFFFFF;
+    width: 132.45px;
+    height: 39px;
+    border-radius: 4.52092px;
+    padding: 6.72343px;
+    font-family: DungGeunMo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0837px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-left: 103px;
+    border:0;
+}
+.RetryButton{
+
+    background: #08552E;
+    color: #FCCE39;
+    width: 132.45px;
+    height: 39px;
+    border-radius: 4.52092px;
+    padding: 6.72343px;
+    font-family: DungGeunMo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0837px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    border:0;
+
+}
+.RetryButton:hover{
+    background: #FCCE39;
+    color: #FFFFFF;
+    width: 132.45px;
+    height: 39px;
+    border-radius: 4.52092px;
+    padding: 6.72343px;
+    font-family: DungGeunMo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18.0837px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    border:0;
+}

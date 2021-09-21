@@ -1,0 +1,217 @@
+.UnPassModal {
+  width: 822.22px;
+  height: 740px;
+  // border: red 1px solid;
+  // background-color: black;
+  background-image: url("../RottenPlatesGame/PlatesGameImage/TrashDummy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position : absolute;
+  left : 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 95;
+
+  .EndMessage {
+    position: absolute;
+    top : 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 822.22px;
+    height : 260px;
+    font-size: 100px;
+    color: white;
+    background-color : red;
+    z-index: 100;
+  }
+
+
+  .UnPassTrash {
+    color :#fcce3a;
+    font-size: 120px;
+  }
+
+
+  .ImgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .UnPassUserImg {
+      z-index: 96;
+      width: 350px;
+      height: 407.67px;
+      background-size: contain;
+      background-position: center;
+    }
+
+    .UnPassUserName {
+      color: #fcce3a;
+      font-size: 24px;
+      margin-top: -50px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .btnContainer {
+    display: flex;
+    width: 822.22px;
+    justify-content :  space-evenly;
+
+    .UnPassModalBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      width: 154.23px;
+      height: 43.83px;
+      background-color: #21AB66;
+      border-radius: 10px;
+      color: #EECC3C;
+    }
+
+  }
+
+
+
+
+  .UnPassMessage {
+    color : #E0E0E0;
+    font-size: 18px;
+    text-align:center;
+
+  }
+
+}
+
+
+.MainContainer {
+  width: 822.22px;
+  height: 740px;
+  border: blue 1px solid;
+  position : absolute;
+  left : 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 80;
+
+  .timerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #1B9659;
+    .timerImage {
+      visibility: hidden;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../RottenPlatesGame/PlatesGameImage/timer.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      font-size: 25px;
+      width: 65px;
+      height: 55.77px;
+      margin-bottom: 10px;
+
+    }
+    .timerMessage{
+      font-size: 14px;
+    }
+
+
+  }
+
+
+  .nextBtn {
+    position: absolute;
+    left : 30px;
+    top : 30px;
+  }
+
+  .message {
+    font-size: 24px;
+    color: #1a9659;
+  }
+}
+
+
+.platesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 233.86px;
+  justify-content: space-around;
+  .cell {
+    cursor: pointer;
+    width: 106px;
+    height: 75px;
+    // background-image: url("../PlatesGameImage/Plate.png");
+    background-repeat : no-repeat;
+
+    .cellItem {
+      position: absolute;
+      background-image: url("../RottenPlatesGame/PlatesGameImage/PlateDefault.png");
+      background-repeat : no-repeat;
+      background-position: center;
+      width: 106px;
+      height: 75px;
+      transform: translateY(-50%);
+    }
+
+    .Plate {
+      background-image: url("../RottenPlatesGame/PlatesGameImage/Plate.png");
+      width: 105px;
+      height: 53px;
+    }
+
+    &:hover {
+      transform: scale(1.5);
+      transition: scale 0.25s ease-in;
+
+    }
+  }
+}
+
+
+.UserContainer{
+  display: flex;
+  width: 730px;
+  height: 170.57px;
+  justify-content: space-between;
+
+  .userWrapper {
+    background-color: #022213;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 112.67px;
+    height: 170.57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    .userImage {
+      width: 100px;
+      height: 116.45px;
+      // background-image: url("../PlatesGameImage/1.png");
+
+    }
+
+    .userName {
+      color: #fcce3a;
+    }
+  }
+}
+

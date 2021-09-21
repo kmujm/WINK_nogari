@@ -1,0 +1,13 @@
+export { default as LiarGameView } from './game/LiarGameView';
+export { default as NewWaitingRoom } from './beforeGame/NewWaitingRoom';
+export { default as WordGameView } from './game/WordGameView';
+export { default as RouletteGameView } from './game/RouletteGameView';
+export { default as Choose_Char } from './beforeGame/Choose_Char';
+export { default as MainView } from './beforeGame/MainView';
+export { default as AlcoholMarbleView } from './game/AlcoholMarbleView';
+export { default as ChangeCharacterView } from './beforeGame/ChangeCharacterView';
+export { default as Find } from './beforeGame/Find';
+export { default as LiarCategoryView } from './game/LiarCategoryView';
+export { default as WordGameCategoryView } from './game/WordGameCategoryView';
+export { default as CompletionVoteComponent } from '../../src/components/voteBadge/CompletionVoteComponent';
+export { default as StoryMain } from './Story/StoryMain';

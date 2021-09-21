@@ -1,0 +1,268 @@
+.gameList {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    height: 220px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 18px;
+    overflow: hidden;
+}
+
+.gameListactive {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    height: 220px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 18px;
+    overflow: hidden;
+    background-color: rgba(252, 206, 57, 0.6)
+}
+
+.gameListactive:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    height: 220px;
+    background-color: rgba(252, 206, 57, 0.6)
+}
+
+.gameListactive:nth-child(1) {
+    background-image: url("../../views/img/상한안주.png");
+    position: relative;
+}
+
+.gameListactive:nth-child(2) {
+    background-image: url("../../views/img/노가리마블.png");
+    position: relative;
+}
+
+.gameListactive:nth-child(3) {
+    background-image: url("../../views/img/안주라이어.png");
+    position: relative;
+}
+
+.gameListactive:nth-child(4) {
+    background-image: url("../../views/img/중간고사.png");
+    position: relative;
+}
+
+
+.gameList:nth-child(1) {
+    background-image: url("../../views/img/상한안주.png");
+    position: relative;
+}
+
+.gameList:nth-child(2) {
+    background-image: url("../../views/img/노가리마블.png");
+    position: relative;
+}
+
+.gameList:nth-child(3) {
+    background-image: url("../../views/img/안주라이어.png");
+    position: relative;
+}
+
+.gameList:nth-child(4) {
+    background-image: url("../../views/img/중간고사.png");
+    position: relative;
+}
+
+.gameList:nth-child(1):before, .gameList:nth-child(2):before, .gameList:nth-child(3):before, .gameList:nth-child(4):before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 1;
+    display: block;
+}
+
+
+
+/* .gameList[tabindex="0"]:focus:before {
+    background-color: #FCCE39;
+}
+
+.gameList[tabindex="0"]:focus .infoBtn {
+    background-color: #1B9659;
+    color: #FCCE39;
+}
+
+.gameList[tabindex="0"]:focus {
+    color: #20985C;
+}
+
+.gameList[tabindex="1"]:focus:before {
+    background-color: #FCCE39;
+}
+.gameList[tabindex="1"]:focus .infoBtn {
+    background-color: #1B9659;
+    color: #FCCE39;
+}
+.gameList[tabindex="1"]:focus {
+    color: #20985C;
+}
+
+.gameList[tabindex="2"]:focus:before {
+    background-color: #FCCE39;
+}
+.gameList[tabindex="2"]:focus .infoBtn {
+    background-color: #1B9659;
+    color: #FCCE39;
+}
+.gameList[tabindex="2"]:focus {
+    color: #20985C;
+}
+
+.gameList[tabindex="3"]:focus:before {
+    background-color: #FCCE39;
+}
+.gameList[tabindex="3"]:focus .infoBtn {
+    background-color: #1B9659;
+    color: #FCCE39;
+}
+.gameList[tabindex="3"]:focus {
+    color: #20985C;
+} */
+
+
+
+.gameList:hover {
+    color: #20985C;
+}
+
+.gameList:hover:before {
+    background-color: #FCCE39;
+}
+
+.gameList:hover .infoBtn {
+    background-color: #1B9659;
+    color: #FCCE39;
+}
+
+.infoBtn {
+    background-color: #FCCE39;
+    color: #535353;
+}
+
+
+/*여기서부터 gameInfo 팝업창 관련 스타일*/
+.firstContainer {
+    position: relative;
+}
+.first-inner-container {
+    top: -594px;
+    left: 59px;
+    position: absolute;
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: #323232;
+    color: #FCCE39;
+    z-index: 100;
+    border: 1px solid black;
+}
+.secondContainer {
+    position: relative;
+}
+.second-inner-container {
+    position: absolute;
+    top: -594px;
+    right: 59px;
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: #323232;
+    color: #FCCE39;
+    z-index: 100;
+    border: 1px solid black;
+}
+.thirdContainer {
+    position: relative;
+}
+.third-inner-container {
+    position: absolute;
+    top: -336px;
+    left: 59px;
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: #323232;
+    color: #FCCE39;
+    z-index: 100;
+    border: 1px solid black;
+}
+.third-story, .third-method, .third-runningTime {
+    font-size: 10px;
+    margin: 0 12px 20px 12px;
+}
+.fourthContainer {
+    position: relative;
+}
+.fourth-inner-container {
+    position: absolute;
+    top: -336px;
+    right: 59px;
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: #323232;
+    color: #FCCE39;
+    z-index: 100;
+    border: 1px solid black;
+}
+
+.gameName {
+    font-size: 32px;
+    margin: 24px 12px 17px;
+}
+.story {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 80%;
+}
+.runningTime {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 80%;
+}
+.method {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.story-title, .method-title, .time-title {
+    opacity: 0.7;
+}
+
+/* modal close btn stylesheet*/
+.exit-btn {
+    cursor: pointer;
+}
+.exit-btn:before {
+    content: url("../../views/img/closeBtn.png");
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

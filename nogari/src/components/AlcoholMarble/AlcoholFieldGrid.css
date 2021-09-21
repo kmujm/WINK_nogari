@@ -1,0 +1,25 @@
+.AlcoholMarbleBody {
+    width: 822.22px;
+    height: 740px;
+    margin: auto;
+}
+
+.AlcoholMarbleMain {
+    width: 495px;
+    height: 495px;
+    margin-left: 164px;
+    padding-top: 72px;
+}
+
+.AlcoholMarbleGrid {
+    position: relative;
+}
+
+.AlcoholMarblePlayer {
+    width: 500px;
+    height: 219px;
+    position: absolute;
+}
+
+.AlcoholMarbleRoulette {
+}
